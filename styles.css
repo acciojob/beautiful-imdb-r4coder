@@ -1,18 +1,22 @@
-
-/* Your CSS Code here. */
-
-img
-{
-	height:400px;
-    width:400px;
-    opacity:1;
+body {
+    margin: 0;
+    text-align: center;
+    background-color: #f4f4f4;
 }
 
-p
-{
-	position: relative;
+.moviePic {
+    height: 500px;
+    width: 350px;
+    opacity: 0.9;
+    margin-top: 20px;
+}
+
+.movieDetail {
+    position: relative;
     top: 20px;
-    width: 300px;
+    width: 70%;
+    margin: auto;
     text-align: center;
-    font-size: 18px;
+    font-size: 20px;
+    line-height: 1.6;
 }
